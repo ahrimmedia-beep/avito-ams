@@ -60,7 +60,7 @@ The chat bot is the only process that runs all the time. It is a systemd service
 
 ## Selected code
 
-This repository holds a few real modules from the product, with their tests, to show how the code is written. The LLM prompts, ad texts, decision rules, the Avito API client, tenant configs and the deployment setup stay private. The full project has 200 tests.
+This repository holds a few real modules from the product, with their tests, to show how the code is written. The LLM prompts, ad texts, decision rules, the Avito API client, tenant configs and the deployment setup stay private. The full project has about 200 tests.
 
 | File | What it shows |
 |---|---|
