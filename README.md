@@ -4,6 +4,10 @@
 
 Multi-agent system that runs paid advertising on Avito, the largest classifieds site in Russia. It studies competitors, drafts ads, tracks spend and cost per lead, and keeps every paid action inside budget limits. A chat bot answers clients in Avito chat around the clock. The owner gets alerts, approval requests and daily numbers in Telegram.
 
+![Listings tab of the dashboard: each ad with views, contacts, spend, cost per lead and its winner or loser mark](docs/screenshots/listings.png)
+
+*The local dashboard with demo data. Each ad gets a mark: winner, average, loser or new.*
+
 ## The problem
 
 Paid promotion on Avito needs attention every day. Without control, the daily budget can run out by noon, and weak ads keep spending money with no leads. Clients write in Avito chat at any hour and leave if nobody answers. Avito also penalizes ads that are too similar to each other. A small business owner cannot watch all of this by hand.
@@ -20,6 +24,22 @@ Paid promotion on Avito needs attention every day. Without control, the daily bu
 - **Telegram reports.** Lead cards, approval requests with buttons, alerts on API errors and low disk space, and a daily digest of the chat bot numbers.
 
 A local Streamlit dashboard shows the state, reports and leads. Everything is set per tenant in one config file, so the same system can run for more than one business.
+
+## Screenshots
+
+All screenshots use demo data. The ads, prices, clients and phone numbers are made up.
+
+![Drafts tab: one draft with three ad variants, strategy notes and the full text of the first variant](docs/screenshots/drafts.png)
+
+*Ad drafts from the Copywriter. Each variant has its own angle, keywords, text and photo brief.*
+
+![Budget tab: daily limit, money spent today and what is left](docs/screenshots/budget.png)
+
+*Budget for the day. It shows the daily limit, the spend so far and what is left.*
+
+![Leads tab: a client chat where the bot answers questions and passes the lead to a manager](docs/screenshots/leads.png)
+
+*Chat archive. The bot answers the client, and when the client is ready, the chat goes to a manager.*
 
 ## How it works
 
